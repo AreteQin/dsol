@@ -32,7 +32,7 @@ find_package(
 
 find_package(TBB REQUIRED)
 find_package(fmt REQUIRED)
-find_package(glog REQUIRED)
+find_package(Glog REQUIRED)
 find_package(absl REQUIRED)
 find_package(Boost REQUIRED) # circular buffer
 
