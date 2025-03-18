@@ -1,7 +1,7 @@
 cc_library(
   NAME util_log
   HDRS "logging.h"
-  DEPS sv_base fmt::fmt glog::glog
+  DEPS sv_base fmt::fmt  ${GLOG_LIBRARIES}
   DEFINES FMT_DEPRECATED_OSTREAM
   INTERFACE)
 
